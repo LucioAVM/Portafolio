@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Monsalbo Lucio",
-  title: "Estudiante de Tecnicatura Universitaria en Programacion - UTN",
+  title: "Estudiante de Tecnicatura Universitaria en Programación - UTN",
   email: "lucioavm8@gmail.com",
   gitHub: "LucioAVM",
   instagram: "MonsalboLucio",

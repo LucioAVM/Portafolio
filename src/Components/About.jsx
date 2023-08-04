@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "Estudiante de programacion en la Universidad Tecnológica Nacional en Avellaneda. Actualmente cuento con 13 de las 24 materias de la carrera aprobadas. Aparte de la programacion me intereso mucho en las nuevas tecnologias y la ciberseguridad";
+  "Estudiante de programación en la Universidad Tecnológica Nacional en Avellaneda. Actualmente cuento con 13 de las 24 materias de la carrera aprobadas. Aparte de la programación me intereso mucho en las nuevas tecnologías y la ciberseguridad";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -36,7 +36,7 @@ const skillsList = [
   "linux",
   "Git",
   "Github",
-  "Javascript",
+  "Javascript"
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "Me gusta mucho la programacion y la tecnologia en general, me gusta aprender cosas nuevas y me considero una persona muy curiosa.";
+  "Me gusta mucho la programación y la tecnología en general, disfruto de aprender cosas nuevas y me considero una persona muy curiosa.";
 
 const About = () => {
   return (
