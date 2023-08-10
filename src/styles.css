@@ -126,7 +126,7 @@ img.socialIcon {
   width: 30px;
 }
 
-botonCV {
+#botonCV {
   background-color: cyan;
   border: none;
   border-radius: 5px;
