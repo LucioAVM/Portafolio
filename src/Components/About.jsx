@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Ordenar descripción que expande su título en el componente Inicio.
  */
 const description =
-  "Estudiante de programación en la Universidad Tecnológica Nacional en Avellaneda. Actualmente cuento con 13 de las 24 materias de la carrera aprobadas. Aparte de la programación me intereso mucho en las nuevas tecnologías y la ciberseguridad";
+  "Estudiante de programación en la Universidad Tecnológica Nacional en Avellaneda. Actualmente cuento con 13 de las 24 materias de la carrera aprobadas con un promedio de 6,8. Aparte de la programación me intereso mucho en las nuevas tecnologías y la ciberseguridad";
 
 /**
  * Lista de algunas de las habilidades o tecnologías en las que trabaja, está aprendiendo,
