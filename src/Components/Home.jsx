@@ -31,7 +31,7 @@ const Home = ({ name, title }) => {
       <img className="background" src={image} alt="" />
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
         <h1>{name}</h1>
-        <button id= "botonCV"><a href="../CV_MonsalboLucio_PDF.pdf" download>Descargar CV</a></button>
+        <button id= "botonCV"><a href="CV_MonsalboLucio_PDF.pdf" download>Descargar CV</a></button>
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
