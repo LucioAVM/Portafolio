@@ -33,7 +33,7 @@ const projectList = [
   {
     title: "Sistema de Administracion Escolar",
     description:
-      "Sistema completo que posee desde ABM, manejo de archivos .csv hasta manejo de datos a partir de una LinkedList.Integramente Programado en C",
+      "Sistema de administracion de alumnos el cual dentro de otras cosas permite dar de alta, modificar y dar de baja asi como filtrar por cualquiera de los 5 campos que posee cada uno, esto a partir de la implemetacion de una LinkedList de desarrollo propia y usando archivos.csv para contar con persistencia de datos. Desarrollado en C",
     url: "https://github.com/LucioAVM/unPocoDeTodo/tree/main/NoMachete",
   },/*
   {
