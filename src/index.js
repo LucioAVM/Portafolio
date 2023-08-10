@@ -1,5 +1,5 @@
 /**
- * Entry point of application, where App is rendered within the div with the id of "app" 
+ * Punto de entrada de la aplicación, donde la aplicación se representa dentro del div con el id de "app"
  */
 
 import React from "react";

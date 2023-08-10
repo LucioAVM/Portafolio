@@ -1,8 +1,8 @@
 /**
- * Header component
+ * Componente de cabecera
  *
- * Top navigation bar for your site. Set to remain visible as the
- * user scrolls so that they can constantly reach any part of your page.
+ * Barra de navegación superior para su sitio. Establecido para permanecer visible como el
+ * El usuario se desplaza para que pueda llegar constantemente a cualquier parte de su página.
  */
 import React from "react";
 

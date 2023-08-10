@@ -1,51 +1,44 @@
 /**
- * About component
+ * Acerca del componente
  *
- * Space for you to describe more about yourself.
+ * Espacio para que describas más sobre ti mismo.
  */
 
 import React from "react";
 
 /**
- * About background image
+ * Acerca de la imagen de fondo
  *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
+ * A continuación se muestra una imagen de muestra. Sube la imagen de tu elección en las "imágenes"
+ * directorio e importar aquí para su uso. A continuación, establezca imageAltText para encadenar eso
+ * representa lo que ves en esa imagen.
  *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
+ * ¿Necesitas una imagen? Echa un vistazo a https://unsplash.com para descargar una imagen que
+ * Uso gratuito en su sitio.
  */
 import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
 /**
- * Sort description that expands on your title on the Home component.
+ * Ordenar descripción que expande su título en el componente Inicio.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Estudiante de programación en la Universidad Tecnológica Nacional en Avellaneda. Actualmente cuento con 13 de las 24 materias de la carrera aprobadas. Aparte de la programación me intereso mucho en las nuevas tecnologías y la ciberseguridad";
 
 /**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
+ * Lista de algunas de las habilidades o tecnologías en las que trabaja, está aprendiendo,
+ * apasionado por, o disfrutar,
  */
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+const skillsList = ["C", "C#", "linux", "Git", "Github", "Javascript"];
 
 /**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
+ * Use esto para dar más información sobre lo que le apasiona,
+ * cómo trabajas mejor, o incluso una cotización. Esto ayudará a alguien a aprender más
+ * sobre ti a nivel profesional.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Me gusta mucho la programación y la tecnología en general, disfruto de aprender cosas nuevas y me considero una persona muy curiosa.";
 
 const About = () => {
   return (

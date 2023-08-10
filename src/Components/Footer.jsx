@@ -1,11 +1,11 @@
 /**
- * Footer component
+ * Componente de pie de página
  *
- * Displays avenues to contact you.
- * Contact information is passed in from the App component that
- * renders the Footer.
+ * Muestra vías para contactarlo.
+ * La información de contacto se transmite desde el componente de la aplicación que
+ * representa el pie de página.
  *
- * If a social value has an empty string it will not be displayed.
+ * Si un valor social tiene una cadena vacía, no se mostrará.
  */
 import React from "react";
 import PropTypes from "prop-types";
@@ -20,10 +20,10 @@ import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
 
 /**
- * 💡 Learning resources
+ * 💡 Recursos de aprendizaje
  *
- *  HTML hyperlinks: https://www.w3schools.com/html/html_links.asp
- *  Opening links in new tabs: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
+ * Hipervínculos HTML: https://www.w3schools.com/html/html_links.asp
+ * Apertura de enlaces en nuevas pestañas: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
  */
 
 const Footer = (props) => {
@@ -135,7 +135,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;
