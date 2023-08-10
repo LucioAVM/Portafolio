@@ -1,41 +1,41 @@
 /**
  * Portfolio component
  *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
+ * Destaca algunas de tus creaciones. Estos pueden ser diseños, sitios web,
+ * Contribuciones de código abierto, artículos que has escrito y más.
  *
- * This is a great area for you to to continually add to and refine
- * as you continue to learn and create.
+ * Esta es una gran área para que usted pueda agregar y refinar continuamente
+ * a medida que continúas aprendiendo y creando.
  */
 
 import React from "react";
 
 /**
- * Desk image
+ * Imagen de escritorio
  *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
+ * A continuación se muestra una imagen de escritorio de muestra. Siéntase libre de actualizar esto a una imagen de su elección,
+ * actualizando debajo de imageAltText a la cadena que representa lo que ve en esa imagen.
  *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
+ * ¿Necesitas una imagen? Echa un vistazo a https://unsplash.com para descargar una foto que
+ * Uso gratuito en su sitio.
  */
 import image from "../images/design-desk.jpeg";
 
 const imageAltText = "desktop with books and laptop";
 
 /**
- * Project list
+ * Lista de proyectos
  *
- * An array of objects that will be used to display for your project
- * links section. Below is a sample, update to reflect links you'd like to highlight.
+ * Una matriz de objetos que se utilizarán para mostrar en su proyecto
+ * Sección de enlaces. A continuación se muestra una muestra, actualización para reflejar los enlaces que le gustaría resaltar.
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Sistema de Administracion Escolar",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
+      "Sistema completo que posee desde ABM, manejo de archivos .csv hasta manejo de datos a partir de una LinkedList.Integramente Programado en C",
+    url: "https://github.com/LucioAVM/unPocoDeTodo/tree/main/NoMachete",
+  },/*
   {
     title: "Web Development for Beginners",
     description:
@@ -53,7 +53,7 @@ const projectList = [
     description:
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+  },*/
 ];
 
 const Portfolio = () => {
@@ -63,8 +63,9 @@ const Portfolio = () => {
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
+            className="slide-in-left"
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
