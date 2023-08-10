@@ -1,7 +1,7 @@
 /**
  * Application component
  *
- * To contain application wide settings, routes, state, etc.
+ * Para contener la configuración de toda la aplicación, rutas, estado, etc.
  */
 
 import React from "react";
@@ -15,13 +15,13 @@ import Portfolio from "./Components/Portfolio";
 import "./styles.css";
 
 /**
- * This object represents your information. The project is set so that you
- * only need to update these here, and values are passed a properties to the
- * components that need that information.
+ * Este objeto representa su información. El proyecto está configurado para que usted
+ * Sólo es necesario actualizarlos aquí, y los valores se pasan a propiedades a la carpeta
+ * componentes que necesitan esa información.
  *
- * Update the values below with your information.
+ * Actualice los valores a continuación con su información.
  *
- * If you don't have one of the social sites listed, leave it as an empty string.
+ * Si no tiene uno de los sitios sociales en la lista, déjelo como una cadena vacía.
  */
 const siteProps = {
   name: "Monsalbo Lucio",
