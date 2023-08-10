@@ -137,6 +137,16 @@ img.socialIcon {
   padding: 0.5rem 1rem;
   float: right;
 }
+
+#tituloDePagina {
+  font-family: "Cormorant Garamond", serif;
+  color: azure;
+  background-color: black;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 /* add a slide in animation */
 @keyframes slideInLeft {
   0% {
